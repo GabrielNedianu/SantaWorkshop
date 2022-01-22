@@ -28,6 +28,11 @@ public class Atelier {
 	private TransferGift giftQueue;
 	
 	/**
+	 * Folosit pentru a contoriza numarul de elfi retrasi
+	 */
+	public static AtomicInteger NR_ELFI_RETRASI = new AtomicInteger();
+	
+	/**
 	 * Folosit pentru a ii da fiecarui elf un id unic
 	 */
 	public static AtomicInteger NR_ELF_CURENT = new AtomicInteger();
@@ -42,6 +47,9 @@ public class Atelier {
 	 */
 	private static ReentrantLock spawnElfLock = new ReentrantLock();
 
+	/**
+	 * Constructor
+	 */
 	public Atelier(TransferGift giftQueue) {
 		this.giftQueue = giftQueue;
 	}
@@ -79,13 +87,13 @@ public class Atelier {
 
 		new RetragereElf().start();
 		
-		System.out.println(getAtelierData());
+		System.out.println(getAtelierStartData());
 	}
 	
 	/**
 	 * @return Un String ce contine toate datele initiale ale atelierului
 	 */
-	public String getAtelierData() {
+	public String getAtelierStartData() {
 		StringBuilder atelierData = new StringBuilder();
 		atelierData.append("Atelierul nostru contine urmatoarele:\n");
 		atelierData.append("- ").append(NR_FABRICI).append(" fabrici cu capacitatile:\n");
@@ -95,5 +103,21 @@ public class Atelier {
 		atelierData.append("- " + NR_RENI + " reni.\n");
 		
 		return atelierData.toString();
+	}
+	
+	/**
+	 * @return Un String ce contine toate datele initiale ale atelierului
+	 */
+	public String getAtelierFinalData() {
+		StringBuilder atelierFinalData = new StringBuilder();
+		atelierFinalData.append("Mosul a primit toate cadourile pe care le-a dorit:\n");
+		for(int i = 0; i < NR_FABRICI ; ++i) {
+			atelierFinalData.append("\t- fabrica ").append(i+1).append(" a produs ").append(fabrici.get(i).getCadouriCreate() + " cadouri \n");
+		}
+		
+		atelierFinalData.append("\nNumar elfi creati: ").append(NR_ELF_CURENT.get()).append("\n");
+		atelierFinalData.append("Numar elfi retrasi: ").append(NR_ELFI_RETRASI.get()).append("\n");
+		
+		return atelierFinalData.toString();
 	}
 }

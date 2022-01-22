@@ -34,7 +34,6 @@ public class Elf extends Thread {
 	 * @param fabricaElfului	fabrica din care face parte elful
 	 */
 	public Elf(int nrElf, int x, int y, Fabrica fabricaElfului) {
-
 		this.nrElf = nrElf;
 		this.x = x;
 		this.y = y;
@@ -56,6 +55,8 @@ public class Elf extends Thread {
 			// Daca elful a creat mai mult de 10 cadouri, acesta poate sa incerce sa se retraga din lucru
 			if (nrCadouriCreate > 10 && Atelier.retragereElfSemaphore.tryAcquire()) {
 				fabrica.retrageElf(this);
+				Atelier.NR_ELFI_RETRASI.incrementAndGet();
+				
 				break;						// Bucla run se va termina daca acesta este retras
 			}
 		}
@@ -97,6 +98,7 @@ public class Elf extends Thread {
 	public int creazaCadou() {
 		cadou = RandomUtil.getIdCadouUnic();
 		LoggerUtil.infoCadou("1. Elful " + this.nrElf + " a creat cadoul cu id-ul: " + cadou);
+		incrementCadou();		// Dupa ce elful creaza un cadou, se incrementeaza numarul cadourilor create de el
 		return cadou;
 	}
 	
@@ -124,6 +126,9 @@ public class Elf extends Thread {
 
 	}
 	
+	/**
+	 * Pozitia elfului este trimisa in fisierul corespunzator
+	 */
 	public void comunicaPozitia() {
 		LoggerUtil.informarePozitie("Elful " + nrElf + " este la " + x + ", " + y + " in fabrica " + fabrica.getNumar());
 	}

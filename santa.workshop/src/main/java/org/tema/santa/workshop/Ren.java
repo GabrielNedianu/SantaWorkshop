@@ -63,7 +63,7 @@ public class Ren extends Thread {
 	 */
 	private int extrageCadouDinFabrica() {
 
-		int fabrica = random.nextInt(Atelier.NR_FABRICI);	// Selectez o fabrica
+		int fabrica = random.nextInt(Atelier.NR_FABRICI);	// Selectez o fabrica aleator
 		return fabrici.get(fabrica).getGift();				// Incerc sa extrag un cadou din ea
 	}
 }

@@ -40,7 +40,7 @@ public class TransferGift {
 				wait();			// Se asteapta golirea bufferului
 			} catch (InterruptedException e) { /*Do nothing*/ }
 		}
-		
+
 		cadouri[tail % cadouri.length] = cadou;		// Se adauga cadoul in buffer
 		tail++;
 		notifyAll();

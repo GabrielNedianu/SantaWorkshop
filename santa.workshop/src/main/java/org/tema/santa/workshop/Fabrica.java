@@ -58,6 +58,13 @@ public class Fabrica extends Thread {
 		return numarFabrica;
 	}
 	
+	/**
+	 * @return numarul de cadouri create in fabrica curenta
+	 */
+	public int getCadouriCreate() {
+		return cadouriCreate;
+	}
+	
 	@Override
 	public void run() {
 
@@ -183,7 +190,7 @@ public class Fabrica extends Thread {
 		if (x + 1 < N && !spatiiOcupate[x + 1][y]) {	// Elful poate fi mutat
 
 			spatiiOcupate[x][y] = false;
-			spatiiOcupate[x][y + 1] = true;		// Se muta elful pe tabla fabricii, astfel el ocupa alt spatiu
+			spatiiOcupate[x + 1][y] = true;		// Se muta elful pe tabla fabricii, astfel el ocupa alt spatiu
 
 			creareCadou(elf);				// Dupa ce se muta, el creaza un cadou
 
@@ -273,35 +280,30 @@ public class Fabrica extends Thread {
 		}
 	}
 
+	/**
+	 * @return ID-ul unic al cadoului sau 0 daca nu am putut extrage un cadou
+	 */
 	public int getGift() {
 
 		int gift = 0;
-
 		try {
-
-			// Acquire a reindeer permit
 			try {
-				semaphoreReni.acquire();
-			} catch (InterruptedException e) {
-				e.printStackTrace();
-			}
+				semaphoreReni.acquire();		// Renul incearca sa se alature renilor ce extrag cadouri din fabrica
+			} catch (InterruptedException e) { /*Do nothing*/ }
 
-			// Two reindeer can't read the gifts list at the same time
-			giftsLock.lock();
+			giftsLock.lock();			// Nu se pot extrage cadouri in acelasi timp
 
-			try {
-				gift = cadouri.get(cadouri.size() - 1);
-				cadouri.remove(cadouri.size() - 1);
+			try {						// Se incearca extragerea celui mai vechi cadou
+				gift = cadouri.get(0);
+				cadouri.remove(0);
 			} catch (Exception exception) {
-				// The gifts list is empty
-				gift = 0;
+				gift = 0;		// Daca nu exista cadouri
 			}
 
 		} finally {
 			giftsLock.unlock();
 			semaphoreReni.release();
 		}
-
 		return gift;
 	}
 
@@ -336,4 +338,5 @@ public class Fabrica extends Thread {
 			fabricaLock.unlock();
 		}
 	}
+	
 }

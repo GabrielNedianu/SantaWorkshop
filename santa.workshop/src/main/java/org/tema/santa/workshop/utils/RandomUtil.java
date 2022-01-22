@@ -65,4 +65,11 @@ public class RandomUtil {
 		Collections.shuffle(mutari);
 		return mutari;
 	}
+	
+	/**
+	 * @return un numar random de cadouri pentru Craciun, intre 2500 si 7500
+	 */
+	public static int getNrCadouriDorite( ) {
+		return random.nextInt(5000) + 2500;
+	}
 }

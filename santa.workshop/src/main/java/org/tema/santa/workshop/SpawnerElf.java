@@ -62,8 +62,8 @@ public class SpawnerElf extends Thread {
 			do {
 				x = random.nextInt(dimFabrica);
 				y = random.nextInt(dimFabrica);
-			} while (fabrica.esteLiberLa(x, y));
-
+			} while (!fabrica.esteLiberLa(x, y));		// Cat timp fabrica e ocupata, caut alte date pt spawn
+			
 			Elf elf = new Elf(Atelier.NR_ELF_CURENT.incrementAndGet(), x, y, fabrica);
 
 			// Incercam introducerea elfului in fabrica
@@ -75,7 +75,6 @@ public class SpawnerElf extends Thread {
 		}
 
 		fabricaLock.unlock();	// Deschid fabrica
-
 	}
 	
 }

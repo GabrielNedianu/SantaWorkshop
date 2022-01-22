@@ -8,20 +8,17 @@ package org.tema.santa.workshop;
  */
 public class RetragereElf extends Thread {
 
+	@Override
 	public void run() {
 
 		while(true) {
-			// Releasing a permit for an elf to retire
+			// La fiecare 200ms un elf care a creat destule cadouri va ptuea incerca sa se retraga
+
 			Atelier.retragereElfSemaphore.release();
 
-			// Sleeping 200 milliseconds
 			try {
 				Thread.sleep(200);
 			} catch (InterruptedException e) { /*Do nothing*/ }
 		}
 	}
-
-
-
-
 }

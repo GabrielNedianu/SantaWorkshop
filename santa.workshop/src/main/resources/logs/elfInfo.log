@@ -1,0 +1,659 @@
+Timp scurs: 0ms - Elful cu numarul 1 a fost creat in fabrica 4
+Timp scurs: 0ms - Elful cu numarul 2 a fost creat in fabrica 3
+Timp scurs: 135ms - Elful cu numarul 3 a fost creat in fabrica 2
+Timp scurs: 281ms - Elful cu numarul 4 a fost creat in fabrica 1
+Timp scurs: 339ms - Elful cu numarul 1 s-a retras din farbrica 4
+Timp scurs: 339ms - Elful cu numarul 2 s-a retras din farbrica 3
+Timp scurs: 475ms - Elful cu numarul 3 s-a retras din farbrica 2
+Timp scurs: 621ms - Elful cu numarul 4 s-a retras din farbrica 1
+Timp scurs: 663ms - Elful cu numarul 5 a fost creat in fabrica 3
+Timp scurs: 705ms - Elful cu numarul 6 a fost creat in fabrica 2
+Timp scurs: 790ms - Elful cu numarul 7 a fost creat in fabrica 4
+Timp scurs: 807ms - Elful cu numarul 8 a fost creat in fabrica 1
+Timp scurs: 1003ms - Elful cu numarul 5 s-a retras din farbrica 3
+Timp scurs: 1044ms - Elful cu numarul 6 s-a retras din farbrica 2
+Timp scurs: 1129ms - Elful cu numarul 7 s-a retras din farbrica 4
+Timp scurs: 1151ms - Elful cu numarul 8 s-a retras din farbrica 1
+Timp scurs: 1247ms - Elful cu numarul 9 a fost creat in fabrica 2
+Timp scurs: 1371ms - Elful cu numarul 10 a fost creat in fabrica 3
+Timp scurs: 1383ms - Elful cu numarul 11 a fost creat in fabrica 4
+Timp scurs: 1446ms - Elful cu numarul 12 a fost creat in fabrica 1
+Timp scurs: 1587ms - Elful cu numarul 9 s-a retras din farbrica 2
+Timp scurs: 1711ms - Elful cu numarul 10 s-a retras din farbrica 3
+Timp scurs: 1723ms - Elful cu numarul 11 s-a retras din farbrica 4
+Timp scurs: 1786ms - Elful cu numarul 12 s-a retras din farbrica 1
+Timp scurs: 2159ms - Elful cu numarul 13 a fost creat in fabrica 2
+Timp scurs: 2302ms - Elful cu numarul 14 a fost creat in fabrica 4
+Timp scurs: 2313ms - Elful cu numarul 15 a fost creat in fabrica 3
+Timp scurs: 2446ms - Elful cu numarul 16 a fost creat in fabrica 1
+Timp scurs: 2500ms - Elful cu numarul 13 s-a retras din farbrica 2
+Timp scurs: 2642ms - Elful cu numarul 14 s-a retras din farbrica 4
+Timp scurs: 2653ms - Elful cu numarul 15 s-a retras din farbrica 3
+Timp scurs: 2786ms - Elful cu numarul 16 s-a retras din farbrica 1
+Timp scurs: 2878ms - Elful cu numarul 17 a fost creat in fabrica 2
+Timp scurs: 2997ms - Elful cu numarul 18 a fost creat in fabrica 3
+Timp scurs: 3218ms - Elful cu numarul 17 s-a retras din farbrica 2
+Timp scurs: 3271ms - Elful cu numarul 19 a fost creat in fabrica 4
+Timp scurs: 3299ms - Elful cu numarul 20 a fost creat in fabrica 1
+Timp scurs: 3337ms - Elful cu numarul 18 s-a retras din farbrica 3
+Timp scurs: 3611ms - Elful cu numarul 19 s-a retras din farbrica 4
+Timp scurs: 3643ms - Elful cu numarul 20 s-a retras din farbrica 1
+Timp scurs: 3646ms - Elful cu numarul 21 a fost creat in fabrica 2
+Timp scurs: 3854ms - Elful cu numarul 22 a fost creat in fabrica 3
+Timp scurs: 3983ms - Elful cu numarul 23 a fost creat in fabrica 4
+Timp scurs: 3985ms - Elful cu numarul 21 s-a retras din farbrica 2
+Timp scurs: 4194ms - Elful cu numarul 22 s-a retras din farbrica 3
+Timp scurs: 4292ms - Elful cu numarul 24 a fost creat in fabrica 1
+Timp scurs: 4324ms - Elful cu numarul 23 s-a retras din farbrica 4
+Timp scurs: 4414ms - Elful cu numarul 25 a fost creat in fabrica 2
+Timp scurs: 4632ms - Elful cu numarul 24 s-a retras din farbrica 1
+Timp scurs: 4754ms - Elful cu numarul 25 s-a retras din farbrica 2
+Timp scurs: 4760ms - Elful cu numarul 26 a fost creat in fabrica 4
+Timp scurs: 4783ms - Elful cu numarul 27 a fost creat in fabrica 3
+Timp scurs: 5100ms - Elful cu numarul 26 s-a retras din farbrica 4
+Timp scurs: 5123ms - Elful cu numarul 27 s-a retras din farbrica 3
+Timp scurs: 5141ms - Elful cu numarul 28 a fost creat in fabrica 1
+Timp scurs: 5239ms - Elful cu numarul 29 a fost creat in fabrica 2
+Timp scurs: 5345ms - Elful cu numarul 30 a fost creat in fabrica 4
+Timp scurs: 5481ms - Elful cu numarul 28 s-a retras din farbrica 1
+Timp scurs: 5490ms - Elful cu numarul 31 a fost creat in fabrica 3
+Timp scurs: 5579ms - Elful cu numarul 29 s-a retras din farbrica 2
+Timp scurs: 5685ms - Elful cu numarul 30 s-a retras din farbrica 4
+Timp scurs: 5831ms - Elful cu numarul 31 s-a retras din farbrica 3
+Timp scurs: 5835ms - Elful cu numarul 32 a fost creat in fabrica 2
+Timp scurs: 5916ms - Elful cu numarul 33 a fost creat in fabrica 1
+Timp scurs: 6175ms - Elful cu numarul 32 s-a retras din farbrica 2
+Timp scurs: 6256ms - Elful cu numarul 33 s-a retras din farbrica 1
+Timp scurs: 6265ms - Elful cu numarul 34 a fost creat in fabrica 4
+Timp scurs: 6453ms - Elful cu numarul 35 a fost creat in fabrica 3
+Timp scurs: 6567ms - Elful cu numarul 36 a fost creat in fabrica 2
+Timp scurs: 6605ms - Elful cu numarul 34 s-a retras din farbrica 4
+Timp scurs: 6793ms - Elful cu numarul 35 s-a retras din farbrica 3
+Timp scurs: 6823ms - Elful cu numarul 37 a fost creat in fabrica 1
+Timp scurs: 6907ms - Elful cu numarul 36 s-a retras din farbrica 2
+Timp scurs: 7008ms - Elful cu numarul 38 a fost creat in fabrica 4
+Timp scurs: 7163ms - Elful cu numarul 37 s-a retras din farbrica 1
+Timp scurs: 7347ms - Elful cu numarul 38 s-a retras din farbrica 4
+Timp scurs: 7381ms - Elful cu numarul 39 a fost creat in fabrica 3
+Timp scurs: 7505ms - Elful cu numarul 40 a fost creat in fabrica 2
+Timp scurs: 7640ms - Elful cu numarul 41 a fost creat in fabrica 1
+Timp scurs: 7721ms - Elful cu numarul 39 s-a retras din farbrica 3
+Timp scurs: 7845ms - Elful cu numarul 40 s-a retras din farbrica 2
+Timp scurs: 7889ms - Elful cu numarul 42 a fost creat in fabrica 3
+Timp scurs: 7947ms - Elful cu numarul 43 a fost creat in fabrica 4
+Timp scurs: 7985ms - Elful cu numarul 41 s-a retras din farbrica 1
+Timp scurs: 8229ms - Elful cu numarul 42 s-a retras din farbrica 3
+Timp scurs: 8250ms - Elful cu numarul 44 a fost creat in fabrica 1
+Timp scurs: 8287ms - Elful cu numarul 43 s-a retras din farbrica 4
+Timp scurs: 8292ms - Elful cu numarul 45 a fost creat in fabrica 2
+Timp scurs: 8467ms - Elful cu numarul 46 a fost creat in fabrica 3
+Timp scurs: 8590ms - Elful cu numarul 44 s-a retras din farbrica 1
+Timp scurs: 8632ms - Elful cu numarul 45 s-a retras din farbrica 2
+Timp scurs: 8737ms - Elful cu numarul 47 a fost creat in fabrica 4
+Timp scurs: 8807ms - Elful cu numarul 46 s-a retras din farbrica 3
+Timp scurs: 8993ms - Elful cu numarul 48 a fost creat in fabrica 3
+Timp scurs: 9043ms - Elful cu numarul 49 a fost creat in fabrica 2
+Timp scurs: 9046ms - Elful cu numarul 50 a fost creat in fabrica 1
+Timp scurs: 9077ms - Elful cu numarul 47 s-a retras din farbrica 4
+Timp scurs: 9332ms - Elful cu numarul 48 s-a retras din farbrica 3
+Timp scurs: 9382ms - Elful cu numarul 49 s-a retras din farbrica 2
+Timp scurs: 9385ms - Elful cu numarul 50 s-a retras din farbrica 1
+Timp scurs: 9511ms - Elful cu numarul 51 a fost creat in fabrica 3
+Timp scurs: 9689ms - Elful cu numarul 52 a fost creat in fabrica 2
+Timp scurs: 9725ms - Elful cu numarul 53 a fost creat in fabrica 4
+Timp scurs: 9851ms - Elful cu numarul 51 s-a retras din farbrica 3
+Timp scurs: 9990ms - Elful cu numarul 54 a fost creat in fabrica 1
+Timp scurs: 10029ms - Elful cu numarul 52 s-a retras din farbrica 2
+Timp scurs: 10066ms - Elful cu numarul 53 s-a retras din farbrica 4
+Timp scurs: 10138ms - Elful cu numarul 55 a fost creat in fabrica 3
+Timp scurs: 10330ms - Elful cu numarul 54 s-a retras din farbrica 1
+Timp scurs: 10435ms - Elful cu numarul 56 a fost creat in fabrica 4
+Timp scurs: 10478ms - Elful cu numarul 55 s-a retras din farbrica 3
+Timp scurs: 10573ms - Elful cu numarul 57 a fost creat in fabrica 2
+Timp scurs: 10706ms - Elful cu numarul 58 a fost creat in fabrica 1
+Timp scurs: 10778ms - Elful cu numarul 56 s-a retras din farbrica 4
+Timp scurs: 10800ms - Elful cu numarul 59 a fost creat in fabrica 3
+Timp scurs: 10913ms - Elful cu numarul 57 s-a retras din farbrica 2
+Timp scurs: 11046ms - Elful cu numarul 58 s-a retras din farbrica 1
+Timp scurs: 11140ms - Elful cu numarul 59 s-a retras din farbrica 3
+Timp scurs: 11238ms - Elful cu numarul 60 a fost creat in fabrica 4
+Timp scurs: 11421ms - Elful cu numarul 61 a fost creat in fabrica 1
+Timp scurs: 11558ms - Elful cu numarul 62 a fost creat in fabrica 2
+Timp scurs: 11573ms - Elful cu numarul 63 a fost creat in fabrica 3
+Timp scurs: 11578ms - Elful cu numarul 60 s-a retras din farbrica 4
+Timp scurs: 11761ms - Elful cu numarul 61 s-a retras din farbrica 1
+Timp scurs: 11898ms - Elful cu numarul 62 s-a retras din farbrica 2
+Timp scurs: 11913ms - Elful cu numarul 63 s-a retras din farbrica 3
+Timp scurs: 12171ms - Elful cu numarul 64 a fost creat in fabrica 4
+Timp scurs: 12311ms - Elful cu numarul 65 a fost creat in fabrica 1
+Timp scurs: 12324ms - Elful cu numarul 66 a fost creat in fabrica 3
+Timp scurs: 12511ms - Elful cu numarul 64 s-a retras din farbrica 4
+Timp scurs: 12531ms - Elful cu numarul 67 a fost creat in fabrica 2
+Timp scurs: 12651ms - Elful cu numarul 65 s-a retras din farbrica 1
+Timp scurs: 12664ms - Elful cu numarul 66 s-a retras din farbrica 3
+Timp scurs: 12859ms - Elful cu numarul 68 a fost creat in fabrica 4
+Timp scurs: 12871ms - Elful cu numarul 67 s-a retras din farbrica 2
+Timp scurs: 12988ms - Elful cu numarul 69 a fost creat in fabrica 1
+Timp scurs: 13146ms - Elful cu numarul 70 a fost creat in fabrica 3
+Timp scurs: 13155ms - Elful cu numarul 71 a fost creat in fabrica 2
+Timp scurs: 13199ms - Elful cu numarul 68 s-a retras din farbrica 4
+Timp scurs: 13327ms - Elful cu numarul 69 s-a retras din farbrica 1
+Timp scurs: 13486ms - Elful cu numarul 70 s-a retras din farbrica 3
+Timp scurs: 13497ms - Elful cu numarul 71 s-a retras din farbrica 2
+Timp scurs: 13559ms - Elful cu numarul 72 a fost creat in fabrica 4
+Timp scurs: 13675ms - Elful cu numarul 73 a fost creat in fabrica 1
+Timp scurs: 13826ms - Elful cu numarul 74 a fost creat in fabrica 3
+Timp scurs: 13856ms - Elful cu numarul 75 a fost creat in fabrica 2
+Timp scurs: 13900ms - Elful cu numarul 72 s-a retras din farbrica 4
+Timp scurs: 14015ms - Elful cu numarul 73 s-a retras din farbrica 1
+Timp scurs: 14166ms - Elful cu numarul 74 s-a retras din farbrica 3
+Timp scurs: 14196ms - Elful cu numarul 75 s-a retras din farbrica 2
+Timp scurs: 14340ms - Elful cu numarul 76 a fost creat in fabrica 4
+Timp scurs: 14397ms - Elful cu numarul 77 a fost creat in fabrica 1
+Timp scurs: 14460ms - Elful cu numarul 78 a fost creat in fabrica 2
+Timp scurs: 14583ms - Elful cu numarul 79 a fost creat in fabrica 3
+Timp scurs: 14680ms - Elful cu numarul 76 s-a retras din farbrica 4
+Timp scurs: 14738ms - Elful cu numarul 77 s-a retras din farbrica 1
+Timp scurs: 14800ms - Elful cu numarul 78 s-a retras din farbrica 2
+Timp scurs: 14924ms - Elful cu numarul 79 s-a retras din farbrica 3
+Timp scurs: 15027ms - Elful cu numarul 80 a fost creat in fabrica 1
+Timp scurs: 15071ms - Elful cu numarul 81 a fost creat in fabrica 2
+Timp scurs: 15274ms - Elful cu numarul 82 a fost creat in fabrica 4
+Timp scurs: 15368ms - Elful cu numarul 80 s-a retras din farbrica 1
+Timp scurs: 15411ms - Elful cu numarul 81 s-a retras din farbrica 2
+Timp scurs: 15456ms - Elful cu numarul 83 a fost creat in fabrica 3
+Timp scurs: 15614ms - Elful cu numarul 82 s-a retras din farbrica 4
+Timp scurs: 15731ms - Elful cu numarul 84 a fost creat in fabrica 1
+Timp scurs: 15796ms - Elful cu numarul 83 s-a retras din farbrica 3
+Timp scurs: 15796ms - Elful cu numarul 85 a fost creat in fabrica 2
+Timp scurs: 16075ms - Elful cu numarul 84 s-a retras din farbrica 1
+Timp scurs: 16113ms - Elful cu numarul 86 a fost creat in fabrica 4
+Timp scurs: 16136ms - Elful cu numarul 85 s-a retras din farbrica 2
+Timp scurs: 16192ms - Elful cu numarul 87 a fost creat in fabrica 3
+Timp scurs: 16430ms - Elful cu numarul 88 a fost creat in fabrica 1
+Timp scurs: 16454ms - Elful cu numarul 86 s-a retras din farbrica 4
+Timp scurs: 16532ms - Elful cu numarul 87 s-a retras din farbrica 3
+Timp scurs: 16651ms - Elful cu numarul 89 a fost creat in fabrica 2
+Timp scurs: 16661ms - Elful cu numarul 90 a fost creat in fabrica 4
+Timp scurs: 16770ms - Elful cu numarul 88 s-a retras din farbrica 1
+Timp scurs: 16991ms - Elful cu numarul 89 s-a retras din farbrica 2
+Timp scurs: 17108ms - Elful cu numarul 91 a fost creat in fabrica 1
+Timp scurs: 17156ms - Elful cu numarul 90 s-a retras din farbrica 4
+Timp scurs: 17182ms - Elful cu numarul 92 a fost creat in fabrica 3
+Timp scurs: 17202ms - Elful cu numarul 93 a fost creat in fabrica 2
+Timp scurs: 17447ms - Elful cu numarul 91 s-a retras din farbrica 1
+Timp scurs: 17479ms - Elful cu numarul 94 a fost creat in fabrica 4
+Timp scurs: 17542ms - Elful cu numarul 93 s-a retras din farbrica 2
+Timp scurs: 17710ms - Elful cu numarul 95 a fost creat in fabrica 3
+Timp scurs: 17737ms - Elful cu numarul 92 s-a retras din farbrica 3
+Timp scurs: 17896ms - Elful cu numarul 96 a fost creat in fabrica 1
+Timp scurs: 17942ms - Elful cu numarul 94 s-a retras din farbrica 4
+Timp scurs: 18090ms - Elful cu numarul 97 a fost creat in fabrica 2
+Timp scurs: 18142ms - Elful cu numarul 95 s-a retras din farbrica 3
+Timp scurs: 18218ms - Elful cu numarul 98 a fost creat in fabrica 4
+Timp scurs: 18303ms - Elful cu numarul 99 a fost creat in fabrica 3
+Timp scurs: 18359ms - Elful cu numarul 96 s-a retras din farbrica 1
+Timp scurs: 18452ms - Elful cu numarul 100 a fost creat in fabrica 1
+Timp scurs: 18554ms - Elful cu numarul 97 s-a retras din farbrica 2
+Timp scurs: 18735ms - Elful cu numarul 99 s-a retras din farbrica 3
+Timp scurs: 18790ms - Elful cu numarul 101 a fost creat in fabrica 4
+Timp scurs: 18946ms - Elful cu numarul 100 s-a retras din farbrica 1
+Timp scurs: 18994ms - Elful cu numarul 102 a fost creat in fabrica 2
+Timp scurs: 19072ms - Elful cu numarul 103 a fost creat in fabrica 3
+Timp scurs: 19145ms - Elful cu numarul 98 s-a retras din farbrica 4
+Timp scurs: 19334ms - Elful cu numarul 102 s-a retras din farbrica 2
+Timp scurs: 19371ms - Elful cu numarul 104 a fost creat in fabrica 1
+Timp scurs: 19536ms - Elful cu numarul 103 s-a retras din farbrica 3
+Timp scurs: 19565ms - Elful cu numarul 105 a fost creat in fabrica 4
+Timp scurs: 19647ms - Elful cu numarul 106 a fost creat in fabrica 3
+Timp scurs: 19742ms - Elful cu numarul 104 s-a retras din farbrica 1
+Timp scurs: 19851ms - Elful cu numarul 107 a fost creat in fabrica 2
+Timp scurs: 19938ms - Elful cu numarul 105 s-a retras din farbrica 4
+Timp scurs: 20139ms - Elful cu numarul 108 a fost creat in fabrica 4
+Timp scurs: 20141ms - Elful cu numarul 106 s-a retras din farbrica 3
+Timp scurs: 20215ms - Elful cu numarul 109 a fost creat in fabrica 1
+Timp scurs: 20220ms - Elful cu numarul 110 a fost creat in fabrica 3
+Timp scurs: 20345ms - Elful cu numarul 107 s-a retras din farbrica 2
+Timp scurs: 20541ms - Elful cu numarul 108 s-a retras din farbrica 4
+Timp scurs: 20690ms - Elful cu numarul 111 a fost creat in fabrica 2
+Timp scurs: 20737ms - Elful cu numarul 101 s-a retras din farbrica 4
+Timp scurs: 20957ms - Elful cu numarul 109 s-a retras din farbrica 1
+Timp scurs: 20966ms - Elful cu numarul 112 a fost creat in fabrica 3
+Timp scurs: 20990ms - Elful cu numarul 113 a fost creat in fabrica 1
+Timp scurs: 21134ms - Elful cu numarul 114 a fost creat in fabrica 4
+Timp scurs: 21148ms - Elful cu numarul 110 s-a retras din farbrica 3
+Timp scurs: 21339ms - Elful cu numarul 111 s-a retras din farbrica 2
+Timp scurs: 21547ms - Elful cu numarul 113 s-a retras din farbrica 1
+Timp scurs: 21617ms - Elful cu numarul 115 a fost creat in fabrica 2
+Timp scurs: 21739ms - Elful cu numarul 112 s-a retras din farbrica 3
+Timp scurs: 21751ms - Elful cu numarul 116 a fost creat in fabrica 1
+Timp scurs: 21857ms - Elful cu numarul 117 a fost creat in fabrica 4
+Timp scurs: 21948ms - Elful cu numarul 118 a fost creat in fabrica 3
+Timp scurs: 21957ms - Elful cu numarul 115 s-a retras din farbrica 2
+Timp scurs: 22153ms - Elful cu numarul 116 s-a retras din farbrica 1
+Timp scurs: 22286ms - Elful cu numarul 119 a fost creat in fabrica 1
+Timp scurs: 22349ms - Elful cu numarul 118 s-a retras din farbrica 3
+Timp scurs: 22535ms - Elful cu numarul 120 a fost creat in fabrica 2
+Timp scurs: 22556ms - Elful cu numarul 114 s-a retras din farbrica 4
+Timp scurs: 22580ms - Elful cu numarul 121 a fost creat in fabrica 3
+Timp scurs: 22583ms - Elful cu numarul 122 a fost creat in fabrica 4
+Timp scurs: 22749ms - Elful cu numarul 119 s-a retras din farbrica 1
+Timp scurs: 22952ms - Elful cu numarul 122 s-a retras din farbrica 4
+Timp scurs: 23092ms - Elful cu numarul 123 a fost creat in fabrica 4
+Timp scurs: 23098ms - Elful cu numarul 124 a fost creat in fabrica 1
+Timp scurs: 23152ms - Elful cu numarul 120 s-a retras din farbrica 2
+Timp scurs: 23270ms - Elful cu numarul 125 a fost creat in fabrica 2
+Timp scurs: 23322ms - Elful cu numarul 126 a fost creat in fabrica 3
+Timp scurs: 23354ms - Elful cu numarul 121 s-a retras din farbrica 3
+Timp scurs: 23747ms - Elful cu numarul 124 s-a retras din farbrica 1
+Timp scurs: 23948ms - Elful cu numarul 127 a fost creat in fabrica 2
+Timp scurs: 23949ms - Elful cu numarul 125 s-a retras din farbrica 2
+Timp scurs: 23974ms - Elful cu numarul 128 a fost creat in fabrica 3
+Timp scurs: 24069ms - Elful cu numarul 129 a fost creat in fabrica 1
+Timp scurs: 24157ms - Elful cu numarul 126 s-a retras din farbrica 3
+Timp scurs: 24350ms - Elful cu numarul 127 s-a retras din farbrica 2
+Timp scurs: 24561ms - Elful cu numarul 128 s-a retras din farbrica 3
+Timp scurs: 24608ms - Elful cu numarul 130 a fost creat in fabrica 2
+Timp scurs: 24626ms - Elful cu numarul 131 a fost creat in fabrica 1
+Timp scurs: 24749ms - Elful cu numarul 129 s-a retras din farbrica 1
+Timp scurs: 24928ms - Elful cu numarul 132 a fost creat in fabrica 3
+Timp scurs: 24948ms - Elful cu numarul 130 s-a retras din farbrica 2
+Timp scurs: 25152ms - Elful cu numarul 131 s-a retras din farbrica 1
+Timp scurs: 25207ms - Elful cu numarul 133 a fost creat in fabrica 2
+Timp scurs: 25340ms - Elful cu numarul 134 a fost creat in fabrica 1
+Timp scurs: 25360ms - Elful cu numarul 132 s-a retras din farbrica 3
+Timp scurs: 25557ms - Elful cu numarul 135 a fost creat in fabrica 3
+Timp scurs: 25578ms - Elful cu numarul 133 s-a retras din farbrica 2
+Timp scurs: 25773ms - Elful cu numarul 134 s-a retras din farbrica 1
+Timp scurs: 25791ms - Elful cu numarul 136 a fost creat in fabrica 2
+Timp scurs: 25866ms - Elful cu numarul 137 a fost creat in fabrica 1
+Timp scurs: 25959ms - Elful cu numarul 135 s-a retras din farbrica 3
+Timp scurs: 26162ms - Elful cu numarul 136 s-a retras din farbrica 2
+Timp scurs: 26223ms - Elful cu numarul 138 a fost creat in fabrica 3
+Timp scurs: 26360ms - Elful cu numarul 137 s-a retras din farbrica 1
+Timp scurs: 26458ms - Elful cu numarul 139 a fost creat in fabrica 1
+Timp scurs: 26462ms - Elful cu numarul 140 a fost creat in fabrica 2
+Timp scurs: 26563ms - Elful cu numarul 138 s-a retras din farbrica 3
+Timp scurs: 26798ms - Elful cu numarul 139 s-a retras din farbrica 1
+Timp scurs: 26956ms - Elful cu numarul 140 s-a retras din farbrica 2
+Timp scurs: 27166ms - Elful cu numarul 141 a fost creat in fabrica 3
+Timp scurs: 27334ms - Elful cu numarul 142 a fost creat in fabrica 1
+Timp scurs: 27397ms - Elful cu numarul 143 a fost creat in fabrica 2
+Timp scurs: 27506ms - Elful cu numarul 141 s-a retras din farbrica 3
+Timp scurs: 27674ms - Elful cu numarul 142 s-a retras din farbrica 1
+Timp scurs: 27737ms - Elful cu numarul 143 s-a retras din farbrica 2
+Timp scurs: 27958ms - Elful cu numarul 144 a fost creat in fabrica 3
+Timp scurs: 28216ms - Elful cu numarul 145 a fost creat in fabrica 2
+Timp scurs: 28255ms - Elful cu numarul 146 a fost creat in fabrica 1
+Timp scurs: 28298ms - Elful cu numarul 144 s-a retras din farbrica 3
+Timp scurs: 28556ms - Elful cu numarul 145 s-a retras din farbrica 2
+Timp scurs: 28595ms - Elful cu numarul 146 s-a retras din farbrica 1
+Timp scurs: 28600ms - Elful cu numarul 147 a fost creat in fabrica 3
+Timp scurs: 28936ms - Elful cu numarul 148 a fost creat in fabrica 2
+Timp scurs: 28940ms - Elful cu numarul 147 s-a retras din farbrica 3
+Timp scurs: 29126ms - Elful cu numarul 149 a fost creat in fabrica 3
+Timp scurs: 29180ms - Elful cu numarul 150 a fost creat in fabrica 1
+Timp scurs: 29276ms - Elful cu numarul 148 s-a retras din farbrica 2
+Timp scurs: 29466ms - Elful cu numarul 149 s-a retras din farbrica 3
+Timp scurs: 29507ms - Elful cu numarul 151 a fost creat in fabrica 2
+Timp scurs: 29520ms - Elful cu numarul 150 s-a retras din farbrica 1
+Timp scurs: 29847ms - Elful cu numarul 151 s-a retras din farbrica 2
+Timp scurs: 29879ms - Elful cu numarul 152 a fost creat in fabrica 3
+Timp scurs: 30071ms - Elful cu numarul 153 a fost creat in fabrica 2
+Timp scurs: 30097ms - Elful cu numarul 154 a fost creat in fabrica 1
+Timp scurs: 30219ms - Elful cu numarul 152 s-a retras din farbrica 3
+Timp scurs: 30411ms - Elful cu numarul 153 s-a retras din farbrica 2
+Timp scurs: 30437ms - Elful cu numarul 154 s-a retras din farbrica 1
+Timp scurs: 30784ms - Elful cu numarul 155 a fost creat in fabrica 3
+Timp scurs: 31043ms - Elful cu numarul 156 a fost creat in fabrica 2
+Timp scurs: 31067ms - Elful cu numarul 157 a fost creat in fabrica 1
+Timp scurs: 31126ms - Elful cu numarul 155 s-a retras din farbrica 3
+Timp scurs: 31361ms - Elful cu numarul 158 a fost creat in fabrica 3
+Timp scurs: 31383ms - Elful cu numarul 156 s-a retras din farbrica 2
+Timp scurs: 31407ms - Elful cu numarul 157 s-a retras din farbrica 1
+Timp scurs: 31701ms - Elful cu numarul 158 s-a retras din farbrica 3
+Timp scurs: 31919ms - Elful cu numarul 159 a fost creat in fabrica 1
+Timp scurs: 31936ms - Elful cu numarul 160 a fost creat in fabrica 2
+Timp scurs: 32087ms - Elful cu numarul 161 a fost creat in fabrica 3
+Timp scurs: 32260ms - Elful cu numarul 159 s-a retras din farbrica 1
+Timp scurs: 32276ms - Elful cu numarul 160 s-a retras din farbrica 2
+Timp scurs: 32427ms - Elful cu numarul 161 s-a retras din farbrica 3
+Timp scurs: 32456ms - Elful cu numarul 162 a fost creat in fabrica 1
+Timp scurs: 32502ms - Elful cu numarul 163 a fost creat in fabrica 2
+Timp scurs: 32796ms - Elful cu numarul 162 s-a retras din farbrica 1
+Timp scurs: 32842ms - Elful cu numarul 163 s-a retras din farbrica 2
+Timp scurs: 33009ms - Elful cu numarul 164 a fost creat in fabrica 3
+Timp scurs: 33039ms - Elful cu numarul 165 a fost creat in fabrica 1
+Timp scurs: 33198ms - Elful cu numarul 166 a fost creat in fabrica 2
+Timp scurs: 33349ms - Elful cu numarul 164 s-a retras din farbrica 3
+Timp scurs: 33380ms - Elful cu numarul 165 s-a retras din farbrica 1
+Timp scurs: 33538ms - Elful cu numarul 166 s-a retras din farbrica 2
+Timp scurs: 33632ms - Elful cu numarul 167 a fost creat in fabrica 1
+Timp scurs: 33909ms - Elful cu numarul 168 a fost creat in fabrica 3
+Timp scurs: 33971ms - Elful cu numarul 167 s-a retras din farbrica 1
+Timp scurs: 34157ms - Elful cu numarul 169 a fost creat in fabrica 2
+Timp scurs: 34249ms - Elful cu numarul 168 s-a retras din farbrica 3
+Timp scurs: 34324ms - Elful cu numarul 170 a fost creat in fabrica 1
+Timp scurs: 34497ms - Elful cu numarul 169 s-a retras din farbrica 2
+Timp scurs: 34593ms - Elful cu numarul 171 a fost creat in fabrica 3
+Timp scurs: 34664ms - Elful cu numarul 170 s-a retras din farbrica 1
+Timp scurs: 34933ms - Elful cu numarul 171 s-a retras din farbrica 3
+Timp scurs: 34975ms - Elful cu numarul 172 a fost creat in fabrica 2
+Timp scurs: 35048ms - Elful cu numarul 173 a fost creat in fabrica 1
+Timp scurs: 35201ms - Elful cu numarul 174 a fost creat in fabrica 3
+Timp scurs: 35314ms - Elful cu numarul 172 s-a retras din farbrica 2
+Timp scurs: 35388ms - Elful cu numarul 173 s-a retras din farbrica 1
+Timp scurs: 35541ms - Elful cu numarul 174 s-a retras din farbrica 3
+Timp scurs: 35778ms - Elful cu numarul 175 a fost creat in fabrica 2
+Timp scurs: 35898ms - Elful cu numarul 176 a fost creat in fabrica 1
+Timp scurs: 36025ms - Elful cu numarul 177 a fost creat in fabrica 3
+Timp scurs: 36118ms - Elful cu numarul 175 s-a retras din farbrica 2
+Timp scurs: 36238ms - Elful cu numarul 176 s-a retras din farbrica 1
+Timp scurs: 36365ms - Elful cu numarul 177 s-a retras din farbrica 3
+Timp scurs: 36395ms - Elful cu numarul 178 a fost creat in fabrica 2
+Timp scurs: 36616ms - Elful cu numarul 179 a fost creat in fabrica 1
+Timp scurs: 36728ms - Elful cu numarul 180 a fost creat in fabrica 3
+Timp scurs: 36735ms - Elful cu numarul 178 s-a retras din farbrica 2
+Timp scurs: 36956ms - Elful cu numarul 179 s-a retras din farbrica 1
+Timp scurs: 36965ms - Elful cu numarul 181 a fost creat in fabrica 2
+Timp scurs: 37068ms - Elful cu numarul 180 s-a retras din farbrica 3
+Timp scurs: 37305ms - Elful cu numarul 181 s-a retras din farbrica 2
+Timp scurs: 37408ms - Elful cu numarul 182 a fost creat in fabrica 1
+Timp scurs: 37494ms - Elful cu numarul 183 a fost creat in fabrica 3
+Timp scurs: 37748ms - Elful cu numarul 182 s-a retras din farbrica 1
+Timp scurs: 37783ms - Elful cu numarul 184 a fost creat in fabrica 2
+Timp scurs: 37834ms - Elful cu numarul 183 s-a retras din farbrica 3
+Timp scurs: 38096ms - Elful cu numarul 185 a fost creat in fabrica 1
+Timp scurs: 38123ms - Elful cu numarul 184 s-a retras din farbrica 2
+Timp scurs: 38381ms - Elful cu numarul 186 a fost creat in fabrica 3
+Timp scurs: 38436ms - Elful cu numarul 185 s-a retras din farbrica 1
+Timp scurs: 38662ms - Elful cu numarul 187 a fost creat in fabrica 2
+Timp scurs: 38678ms - Elful cu numarul 188 a fost creat in fabrica 1
+Timp scurs: 38721ms - Elful cu numarul 186 s-a retras din farbrica 3
+Timp scurs: 39003ms - Elful cu numarul 187 s-a retras din farbrica 2
+Timp scurs: 39018ms - Elful cu numarul 188 s-a retras din farbrica 1
+Timp scurs: 39167ms - Elful cu numarul 189 a fost creat in fabrica 3
+Timp scurs: 39367ms - Elful cu numarul 190 a fost creat in fabrica 2
+Timp scurs: 39507ms - Elful cu numarul 189 s-a retras din farbrica 3
+Timp scurs: 39642ms - Elful cu numarul 191 a fost creat in fabrica 1
+Timp scurs: 39707ms - Elful cu numarul 190 s-a retras din farbrica 2
+Timp scurs: 39982ms - Elful cu numarul 191 s-a retras din farbrica 1
+Timp scurs: 40078ms - Elful cu numarul 192 a fost creat in fabrica 3
+Timp scurs: 40361ms - Elful cu numarul 193 a fost creat in fabrica 2
+Timp scurs: 40418ms - Elful cu numarul 192 s-a retras din farbrica 3
+Timp scurs: 40599ms - Elful cu numarul 194 a fost creat in fabrica 1
+Timp scurs: 40706ms - Elful cu numarul 193 s-a retras din farbrica 2
+Timp scurs: 40779ms - Elful cu numarul 195 a fost creat in fabrica 3
+Timp scurs: 40939ms - Elful cu numarul 194 s-a retras din farbrica 1
+Timp scurs: 41119ms - Elful cu numarul 195 s-a retras din farbrica 3
+Timp scurs: 41177ms - Elful cu numarul 196 a fost creat in fabrica 2
+Timp scurs: 41305ms - Elful cu numarul 197 a fost creat in fabrica 3
+Timp scurs: 41349ms - Elful cu numarul 198 a fost creat in fabrica 1
+Timp scurs: 41517ms - Elful cu numarul 196 s-a retras din farbrica 2
+Timp scurs: 41646ms - Elful cu numarul 197 s-a retras din farbrica 3
+Timp scurs: 41689ms - Elful cu numarul 198 s-a retras din farbrica 1
+Timp scurs: 41797ms - Elful cu numarul 199 a fost creat in fabrica 2
+Timp scurs: 41964ms - Elful cu numarul 200 a fost creat in fabrica 1
+Timp scurs: 42137ms - Elful cu numarul 199 s-a retras din farbrica 2
+Timp scurs: 42248ms - Elful cu numarul 201 a fost creat in fabrica 3
+Timp scurs: 42304ms - Elful cu numarul 200 s-a retras din farbrica 1
+Timp scurs: 42426ms - Elful cu numarul 202 a fost creat in fabrica 2
+Timp scurs: 42588ms - Elful cu numarul 201 s-a retras din farbrica 3
+Timp scurs: 42766ms - Elful cu numarul 202 s-a retras din farbrica 2
+Timp scurs: 42781ms - Elful cu numarul 203 a fost creat in fabrica 1
+Timp scurs: 42810ms - Elful cu numarul 204 a fost creat in fabrica 3
+Timp scurs: 42942ms - Elful cu numarul 205 a fost creat in fabrica 2
+Timp scurs: 43121ms - Elful cu numarul 203 s-a retras din farbrica 1
+Timp scurs: 43150ms - Elful cu numarul 204 s-a retras din farbrica 3
+Timp scurs: 43282ms - Elful cu numarul 205 s-a retras din farbrica 2
+Timp scurs: 43316ms - Elful cu numarul 206 a fost creat in fabrica 3
+Timp scurs: 43455ms - Elful cu numarul 207 a fost creat in fabrica 1
+Timp scurs: 43656ms - Elful cu numarul 206 s-a retras din farbrica 3
+Timp scurs: 43795ms - Elful cu numarul 207 s-a retras din farbrica 1
+Timp scurs: 43863ms - Elful cu numarul 208 a fost creat in fabrica 3
+Timp scurs: 43929ms - Elful cu numarul 209 a fost creat in fabrica 2
+Timp scurs: 44203ms - Elful cu numarul 208 s-a retras din farbrica 3
+Timp scurs: 44270ms - Elful cu numarul 209 s-a retras din farbrica 2
+Timp scurs: 44312ms - Elful cu numarul 210 a fost creat in fabrica 1
+Timp scurs: 44440ms - Elful cu numarul 211 a fost creat in fabrica 3
+Timp scurs: 44540ms - Elful cu numarul 212 a fost creat in fabrica 2
+Timp scurs: 44653ms - Elful cu numarul 210 s-a retras din farbrica 1
+Timp scurs: 44784ms - Elful cu numarul 211 s-a retras din farbrica 3
+Timp scurs: 44880ms - Elful cu numarul 212 s-a retras din farbrica 2
+Timp scurs: 45067ms - Elful cu numarul 213 a fost creat in fabrica 1
+Timp scurs: 45146ms - Elful cu numarul 214 a fost creat in fabrica 3
+Timp scurs: 45239ms - Elful cu numarul 215 a fost creat in fabrica 2
+Timp scurs: 45408ms - Elful cu numarul 213 s-a retras din farbrica 1
+Timp scurs: 45486ms - Elful cu numarul 214 s-a retras din farbrica 3
+Timp scurs: 45579ms - Elful cu numarul 215 s-a retras din farbrica 2
+Timp scurs: 45783ms - Elful cu numarul 216 a fost creat in fabrica 3
+Timp scurs: 46004ms - Elful cu numarul 217 a fost creat in fabrica 1
+Timp scurs: 46123ms - Elful cu numarul 216 s-a retras din farbrica 3
+Timp scurs: 46154ms - Elful cu numarul 218 a fost creat in fabrica 2
+Timp scurs: 46347ms - Elful cu numarul 217 s-a retras din farbrica 1
+Timp scurs: 46495ms - Elful cu numarul 218 s-a retras din farbrica 2
+Timp scurs: 46534ms - Elful cu numarul 219 a fost creat in fabrica 1
+Timp scurs: 46697ms - Elful cu numarul 220 a fost creat in fabrica 2
+Timp scurs: 46770ms - Elful cu numarul 221 a fost creat in fabrica 3
+Timp scurs: 46875ms - Elful cu numarul 219 s-a retras din farbrica 1
+Timp scurs: 47037ms - Elful cu numarul 220 s-a retras din farbrica 2
+Timp scurs: 47098ms - Elful cu numarul 222 a fost creat in fabrica 1
+Timp scurs: 47110ms - Elful cu numarul 221 s-a retras din farbrica 3
+Timp scurs: 47353ms - Elful cu numarul 223 a fost creat in fabrica 3
+Timp scurs: 47367ms - Elful cu numarul 224 a fost creat in fabrica 2
+Timp scurs: 47438ms - Elful cu numarul 222 s-a retras din farbrica 1
+Timp scurs: 47693ms - Elful cu numarul 223 s-a retras din farbrica 3
+Timp scurs: 47706ms - Elful cu numarul 224 s-a retras din farbrica 2
+Timp scurs: 48012ms - Elful cu numarul 225 a fost creat in fabrica 1
+Timp scurs: 48231ms - Elful cu numarul 226 a fost creat in fabrica 3
+Timp scurs: 48272ms - Elful cu numarul 227 a fost creat in fabrica 2
+Timp scurs: 48352ms - Elful cu numarul 225 s-a retras din farbrica 1
+Timp scurs: 48571ms - Elful cu numarul 226 s-a retras din farbrica 3
+Timp scurs: 48612ms - Elful cu numarul 227 s-a retras din farbrica 2
+Timp scurs: 48882ms - Elful cu numarul 228 a fost creat in fabrica 2
+Timp scurs: 48934ms - Elful cu numarul 229 a fost creat in fabrica 1
+Timp scurs: 49061ms - Elful cu numarul 230 a fost creat in fabrica 3
+Timp scurs: 49222ms - Elful cu numarul 228 s-a retras din farbrica 2
+Timp scurs: 49274ms - Elful cu numarul 229 s-a retras din farbrica 1
+Timp scurs: 49401ms - Elful cu numarul 230 s-a retras din farbrica 3
+Timp scurs: 49511ms - Elful cu numarul 231 a fost creat in fabrica 1
+Timp scurs: 49607ms - Elful cu numarul 232 a fost creat in fabrica 2
+Timp scurs: 49806ms - Elful cu numarul 233 a fost creat in fabrica 3
+Timp scurs: 49851ms - Elful cu numarul 231 s-a retras din farbrica 1
+Timp scurs: 49947ms - Elful cu numarul 232 s-a retras din farbrica 2
+Timp scurs: 50147ms - Elful cu numarul 233 s-a retras din farbrica 3
+Timp scurs: 50250ms - Elful cu numarul 234 a fost creat in fabrica 1
+Timp scurs: 50375ms - Elful cu numarul 235 a fost creat in fabrica 3
+Timp scurs: 50422ms - Elful cu numarul 236 a fost creat in fabrica 2
+Timp scurs: 50590ms - Elful cu numarul 234 s-a retras din farbrica 1
+Timp scurs: 50715ms - Elful cu numarul 235 s-a retras din farbrica 3
+Timp scurs: 50762ms - Elful cu numarul 236 s-a retras din farbrica 2
+Timp scurs: 50935ms - Elful cu numarul 237 a fost creat in fabrica 1
+Timp scurs: 50992ms - Elful cu numarul 238 a fost creat in fabrica 2
+Timp scurs: 51275ms - Elful cu numarul 237 s-a retras din farbrica 1
+Timp scurs: 51332ms - Elful cu numarul 238 s-a retras din farbrica 2
+Timp scurs: 51345ms - Elful cu numarul 239 a fost creat in fabrica 3
+Timp scurs: 51532ms - Elful cu numarul 240 a fost creat in fabrica 1
+Timp scurs: 51578ms - Elful cu numarul 241 a fost creat in fabrica 2
+Timp scurs: 51685ms - Elful cu numarul 239 s-a retras din farbrica 3
+Timp scurs: 51872ms - Elful cu numarul 240 s-a retras din farbrica 1
+Timp scurs: 51918ms - Elful cu numarul 241 s-a retras din farbrica 2
+Timp scurs: 52288ms - Elful cu numarul 242 a fost creat in fabrica 3
+Timp scurs: 52426ms - Elful cu numarul 243 a fost creat in fabrica 2
+Timp scurs: 52456ms - Elful cu numarul 244 a fost creat in fabrica 1
+Timp scurs: 52628ms - Elful cu numarul 242 s-a retras din farbrica 3
+Timp scurs: 52766ms - Elful cu numarul 243 s-a retras din farbrica 2
+Timp scurs: 52796ms - Elful cu numarul 244 s-a retras din farbrica 1
+Timp scurs: 52805ms - Elful cu numarul 245 a fost creat in fabrica 3
+Timp scurs: 53145ms - Elful cu numarul 245 s-a retras din farbrica 3
+Timp scurs: 53146ms - Elful cu numarul 246 a fost creat in fabrica 1
+Timp scurs: 53164ms - Elful cu numarul 247 a fost creat in fabrica 2
+Timp scurs: 53486ms - Elful cu numarul 246 s-a retras din farbrica 1
+Timp scurs: 53504ms - Elful cu numarul 247 s-a retras din farbrica 2
+Timp scurs: 53651ms - Elful cu numarul 248 a fost creat in fabrica 3
+Timp scurs: 53795ms - Elful cu numarul 249 a fost creat in fabrica 2
+Timp scurs: 53952ms - Elful cu numarul 250 a fost creat in fabrica 1
+Timp scurs: 53991ms - Elful cu numarul 248 s-a retras din farbrica 3
+Timp scurs: 54135ms - Elful cu numarul 249 s-a retras din farbrica 2
+Timp scurs: 54296ms - Elful cu numarul 250 s-a retras din farbrica 1
+Timp scurs: 54381ms - Elful cu numarul 251 a fost creat in fabrica 3
+Timp scurs: 54432ms - Elful cu numarul 252 a fost creat in fabrica 2
+Timp scurs: 54721ms - Elful cu numarul 251 s-a retras din farbrica 3
+Timp scurs: 54772ms - Elful cu numarul 252 s-a retras din farbrica 2
+Timp scurs: 54929ms - Elful cu numarul 253 a fost creat in fabrica 1
+Timp scurs: 55098ms - Elful cu numarul 254 a fost creat in fabrica 2
+Timp scurs: 55270ms - Elful cu numarul 253 s-a retras din farbrica 1
+Timp scurs: 55355ms - Elful cu numarul 255 a fost creat in fabrica 3
+Timp scurs: 55438ms - Elful cu numarul 254 s-a retras din farbrica 2
+Timp scurs: 55700ms - Elful cu numarul 255 s-a retras din farbrica 3
+Timp scurs: 55838ms - Elful cu numarul 256 a fost creat in fabrica 2
+Timp scurs: 55850ms - Elful cu numarul 257 a fost creat in fabrica 1
+Timp scurs: 56152ms - Elful cu numarul 258 a fost creat in fabrica 3
+Timp scurs: 56178ms - Elful cu numarul 256 s-a retras din farbrica 2
+Timp scurs: 56190ms - Elful cu numarul 257 s-a retras din farbrica 1
+Timp scurs: 56492ms - Elful cu numarul 258 s-a retras din farbrica 3
+Timp scurs: 56745ms - Elful cu numarul 259 a fost creat in fabrica 1
+Timp scurs: 56774ms - Elful cu numarul 260 a fost creat in fabrica 2
+Timp scurs: 56985ms - Elful cu numarul 261 a fost creat in fabrica 3
+Timp scurs: 57084ms - Elful cu numarul 259 s-a retras din farbrica 1
+Timp scurs: 57113ms - Elful cu numarul 260 s-a retras din farbrica 2
+Timp scurs: 57325ms - Elful cu numarul 261 s-a retras din farbrica 3
+Timp scurs: 57572ms - Elful cu numarul 262 a fost creat in fabrica 1
+Timp scurs: 57576ms - Elful cu numarul 263 a fost creat in fabrica 2
+Timp scurs: 57814ms - Elful cu numarul 264 a fost creat in fabrica 3
+Timp scurs: 57912ms - Elful cu numarul 262 s-a retras din farbrica 1
+Timp scurs: 57916ms - Elful cu numarul 263 s-a retras din farbrica 2
+Timp scurs: 58154ms - Elful cu numarul 264 s-a retras din farbrica 3
+Timp scurs: 58169ms - Elful cu numarul 265 a fost creat in fabrica 1
+Timp scurs: 58507ms - Elful cu numarul 266 a fost creat in fabrica 2
+Timp scurs: 58509ms - Elful cu numarul 265 s-a retras din farbrica 1
+Timp scurs: 58537ms - Elful cu numarul 267 a fost creat in fabrica 3
+Timp scurs: 58847ms - Elful cu numarul 266 s-a retras din farbrica 2
+Timp scurs: 58877ms - Elful cu numarul 267 s-a retras din farbrica 3
+Timp scurs: 58921ms - Elful cu numarul 268 a fost creat in fabrica 1
+Timp scurs: 59060ms - Elful cu numarul 269 a fost creat in fabrica 3
+Timp scurs: 59126ms - Elful cu numarul 270 a fost creat in fabrica 2
+Timp scurs: 59261ms - Elful cu numarul 268 s-a retras din farbrica 1
+Timp scurs: 59400ms - Elful cu numarul 269 s-a retras din farbrica 3
+Timp scurs: 59466ms - Elful cu numarul 270 s-a retras din farbrica 2
+Timp scurs: 59562ms - Elful cu numarul 271 a fost creat in fabrica 1
+Timp scurs: 59681ms - Elful cu numarul 272 a fost creat in fabrica 2
+Timp scurs: 59903ms - Elful cu numarul 271 s-a retras din farbrica 1
+Timp scurs: 60009ms - Elful cu numarul 273 a fost creat in fabrica 3
+Timp scurs: 60021ms - Elful cu numarul 272 s-a retras din farbrica 2
+Timp scurs: 60349ms - Elful cu numarul 273 s-a retras din farbrica 3
+Timp scurs: 60418ms - Elful cu numarul 274 a fost creat in fabrica 2
+Timp scurs: 60420ms - Elful cu numarul 275 a fost creat in fabrica 1
+Timp scurs: 60657ms - Elful cu numarul 276 a fost creat in fabrica 3
+Timp scurs: 60758ms - Elful cu numarul 274 s-a retras din farbrica 2
+Timp scurs: 60760ms - Elful cu numarul 275 s-a retras din farbrica 1
+Timp scurs: 60923ms - Elful cu numarul 277 a fost creat in fabrica 1
+Timp scurs: 60997ms - Elful cu numarul 276 s-a retras din farbrica 3
+Timp scurs: 61262ms - Elful cu numarul 277 s-a retras din farbrica 1
+Timp scurs: 61380ms - Elful cu numarul 278 a fost creat in fabrica 2
+Timp scurs: 61494ms - Elful cu numarul 279 a fost creat in fabrica 3
+Timp scurs: 61720ms - Elful cu numarul 278 s-a retras din farbrica 2
+Timp scurs: 61834ms - Elful cu numarul 279 s-a retras din farbrica 3
+Timp scurs: 61853ms - Elful cu numarul 280 a fost creat in fabrica 1
+Timp scurs: 62038ms - Elful cu numarul 281 a fost creat in fabrica 2
+Timp scurs: 62193ms - Elful cu numarul 280 s-a retras din farbrica 1
+Timp scurs: 62378ms - Elful cu numarul 281 s-a retras din farbrica 2
+Timp scurs: 62483ms - Elful cu numarul 282 a fost creat in fabrica 3
+Timp scurs: 62565ms - Elful cu numarul 283 a fost creat in fabrica 2
+Timp scurs: 62575ms - Elful cu numarul 284 a fost creat in fabrica 1
+Timp scurs: 62822ms - Elful cu numarul 282 s-a retras din farbrica 3
+Timp scurs: 62905ms - Elful cu numarul 283 s-a retras din farbrica 2
+Timp scurs: 62915ms - Elful cu numarul 284 s-a retras din farbrica 1
+Timp scurs: 63299ms - Elful cu numarul 285 a fost creat in fabrica 3
+Timp scurs: 63485ms - Elful cu numarul 286 a fost creat in fabrica 2
+Timp scurs: 63571ms - Elful cu numarul 287 a fost creat in fabrica 1
+Timp scurs: 63639ms - Elful cu numarul 285 s-a retras din farbrica 3
+Timp scurs: 63825ms - Elful cu numarul 286 s-a retras din farbrica 2
+Timp scurs: 63911ms - Elful cu numarul 287 s-a retras din farbrica 1
+Timp scurs: 64180ms - Elful cu numarul 288 a fost creat in fabrica 2
+Timp scurs: 64280ms - Elful cu numarul 289 a fost creat in fabrica 3
+Timp scurs: 64363ms - Elful cu numarul 290 a fost creat in fabrica 1
+Timp scurs: 64520ms - Elful cu numarul 288 s-a retras din farbrica 2
+Timp scurs: 64620ms - Elful cu numarul 289 s-a retras din farbrica 3
+Timp scurs: 64703ms - Elful cu numarul 290 s-a retras din farbrica 1
+Timp scurs: 64828ms - Elful cu numarul 291 a fost creat in fabrica 2
+Timp scurs: 64914ms - Elful cu numarul 292 a fost creat in fabrica 3
+Timp scurs: 65142ms - Elful cu numarul 293 a fost creat in fabrica 1
+Timp scurs: 65167ms - Elful cu numarul 291 s-a retras din farbrica 2
+Timp scurs: 65254ms - Elful cu numarul 292 s-a retras din farbrica 3
+Timp scurs: 65482ms - Elful cu numarul 293 s-a retras din farbrica 1
+Timp scurs: 65510ms - Elful cu numarul 294 a fost creat in fabrica 3
+Timp scurs: 65687ms - Elful cu numarul 295 a fost creat in fabrica 2
+Timp scurs: 65850ms - Elful cu numarul 294 s-a retras din farbrica 3
+Timp scurs: 65861ms - Elful cu numarul 296 a fost creat in fabrica 1
+Timp scurs: 66027ms - Elful cu numarul 295 s-a retras din farbrica 2
+Timp scurs: 66096ms - Elful cu numarul 297 a fost creat in fabrica 3
+Timp scurs: 66201ms - Elful cu numarul 296 s-a retras din farbrica 1
+Timp scurs: 66352ms - Elful cu numarul 298 a fost creat in fabrica 2
+Timp scurs: 66435ms - Elful cu numarul 297 s-a retras din farbrica 3
+Timp scurs: 66670ms - Elful cu numarul 299 a fost creat in fabrica 3
+Timp scurs: 66692ms - Elful cu numarul 298 s-a retras din farbrica 2
+Timp scurs: 66831ms - Elful cu numarul 300 a fost creat in fabrica 1
+Timp scurs: 66885ms - Elful cu numarul 301 a fost creat in fabrica 2
+Timp scurs: 67010ms - Elful cu numarul 299 s-a retras din farbrica 3
+Timp scurs: 67171ms - Elful cu numarul 300 s-a retras din farbrica 1
+Timp scurs: 67225ms - Elful cu numarul 301 s-a retras din farbrica 2
+Timp scurs: 67449ms - Elful cu numarul 302 a fost creat in fabrica 2
+Timp scurs: 67465ms - Elful cu numarul 303 a fost creat in fabrica 3
+Timp scurs: 67470ms - Elful cu numarul 304 a fost creat in fabrica 1
+Timp scurs: 67788ms - Elful cu numarul 302 s-a retras din farbrica 2
+Timp scurs: 67804ms - Elful cu numarul 303 s-a retras din farbrica 3
+Timp scurs: 67809ms - Elful cu numarul 304 s-a retras din farbrica 1
+Timp scurs: 67996ms - Elful cu numarul 305 a fost creat in fabrica 1
+Timp scurs: 68231ms - Elful cu numarul 306 a fost creat in fabrica 3
+Timp scurs: 68336ms - Elful cu numarul 305 s-a retras din farbrica 1
+Timp scurs: 68352ms - Elful cu numarul 307 a fost creat in fabrica 2
+Timp scurs: 68571ms - Elful cu numarul 306 s-a retras din farbrica 3
+Timp scurs: 68626ms - Elful cu numarul 308 a fost creat in fabrica 1
+Timp scurs: 68692ms - Elful cu numarul 307 s-a retras din farbrica 2
+Timp scurs: 68784ms - Elful cu numarul 309 a fost creat in fabrica 3
+Timp scurs: 68966ms - Elful cu numarul 308 s-a retras din farbrica 1
+Timp scurs: 69124ms - Elful cu numarul 309 s-a retras din farbrica 3
+Timp scurs: 69256ms - Elful cu numarul 310 a fost creat in fabrica 2
+Timp scurs: 69288ms - Elful cu numarul 311 a fost creat in fabrica 3
+Timp scurs: 69447ms - Elful cu numarul 312 a fost creat in fabrica 1
+Timp scurs: 69596ms - Elful cu numarul 310 s-a retras din farbrica 2
+Timp scurs: 69628ms - Elful cu numarul 311 s-a retras din farbrica 3
+Timp scurs: 69787ms - Elful cu numarul 312 s-a retras din farbrica 1
+Timp scurs: 69839ms - Elful cu numarul 313 a fost creat in fabrica 2
+Timp scurs: 69979ms - Elful cu numarul 314 a fost creat in fabrica 3
+Timp scurs: 70179ms - Elful cu numarul 313 s-a retras din farbrica 2
+Timp scurs: 0ms - Elful cu numarul 1 a fost creat in fabrica 1
+Timp scurs: 1ms - Elful cu numarul 2 a fost creat in fabrica 2
+Timp scurs: 30ms - Elful cu numarul 3 a fost creat in fabrica 3
+Timp scurs: 658ms - Elful cu numarul 4 a fost creat in fabrica 3
+Timp scurs: 751ms - Elful cu numarul 5 a fost creat in fabrica 1
+Timp scurs: 964ms - Elful cu numarul 6 a fost creat in fabrica 2
+Timp scurs: 1539ms - Elful cu numarul 7 a fost creat in fabrica 1
+Timp scurs: 1643ms - Elful cu numarul 8 a fost creat in fabrica 3
+Timp scurs: 1927ms - Elful cu numarul 9 a fost creat in fabrica 2
+Timp scurs: 2151ms - Elful cu numarul 10 a fost creat in fabrica 1
+Timp scurs: 2333ms - Elful cu numarul 11 a fost creat in fabrica 3
+Timp scurs: 2538ms - Elful cu numarul 12 a fost creat in fabrica 2
+Timp scurs: 2990ms - Elful cu numarul 13 a fost creat in fabrica 1
+Timp scurs: 3230ms - Elful cu numarul 14 a fost creat in fabrica 3
+Timp scurs: 3246ms - Elful cu numarul 15 a fost creat in fabrica 2
+Timp scurs: 3918ms - Elful cu numarul 16 a fost creat in fabrica 1
+Timp scurs: 3928ms - Elful cu numarul 17 a fost creat in fabrica 2
+Timp scurs: 4110ms - Elful cu numarul 18 a fost creat in fabrica 3
+Timp scurs: 4573ms - Elful cu numarul 19 a fost creat in fabrica 1
+Timp scurs: 4722ms - Elful cu numarul 20 a fost creat in fabrica 2
+Timp scurs: 5058ms - Elful cu numarul 21 a fost creat in fabrica 3
+Timp scurs: 5399ms - Elful cu numarul 22 a fost creat in fabrica 1
+Timp scurs: 5613ms - Elful cu numarul 23 a fost creat in fabrica 2
+Timp scurs: 5882ms - Elful cu numarul 24 a fost creat in fabrica 3
+Timp scurs: 5991ms - Elful cu numarul 25 a fost creat in fabrica 1
+Timp scurs: 6467ms - Elful cu numarul 26 a fost creat in fabrica 2
+Timp scurs: 6773ms - Elful cu numarul 27 a fost creat in fabrica 3
+Timp scurs: 6882ms - Elful cu numarul 28 a fost creat in fabrica 1
+Timp scurs: 7461ms - Elful cu numarul 29 a fost creat in fabrica 2
+Timp scurs: 7575ms - Elful cu numarul 30 a fost creat in fabrica 1
+Timp scurs: 7596ms - Elful cu numarul 31 a fost creat in fabrica 3
+Timp scurs: 8083ms - Elful cu numarul 32 a fost creat in fabrica 2
+Timp scurs: 8242ms - Elful cu numarul 33 a fost creat in fabrica 3
+Timp scurs: 8355ms - Elful cu numarul 34 a fost creat in fabrica 1
