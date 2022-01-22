@@ -1,7 +1,7 @@
 package org.tema.santa.workshop;
 
 /**
- * Clasa folosita pentru a implementa protocolul TP/ICP
+ * Clasa folosita pentru a transmite datele printr-o conducta
  * 
  * @author gabriel_nedianu
  *
@@ -10,47 +10,39 @@ public class TransferGift {
 
 	private volatile int head = 0;
 	private volatile int tail = 0;
-	private int[] gifts = new int[10];
+	private int[] cadouri = new int[10];
 
-	public synchronized int receiveGift() {
+	/**
+	 * Se scoate ultimul cadou adaugat in conducta
+	 */
+	public synchronized int receiveCadou() {
 
-		int gift = 0;
-
-		// Waiting until the buffer is no longer empty
+		int cadouID = 0;
 		while (tail == head) {
 			try {
-				wait();
-			} catch (InterruptedException e) {
-				e.printStackTrace();
-			}
+				wait();		// Se asteapta golirea bufferului
+			} catch (InterruptedException e) { /*Do nothing*/ }
 		}
 
-		// Getting the gift from the buffer
-		gift = gifts[head % gifts.length];
+		cadouID = cadouri[head % cadouri.length];	// Se primeste cadoul
 		head++;
-
-		// Notify that the buffer is not full
 		notifyAll();
-
-		return gift;
+		return cadouID;
 	}
 
-	public synchronized void giveGift(int gift) {
+	/**
+	 * Se adauga cadoul in conducta
+	 */
+	public synchronized void adaugaCadou(int cadou) {
 
-		// Waiting until the buffer is no longer full
-		while (tail - head == gifts.length) {
+		while (tail - head == cadouri.length) {
 			try {
-				wait();
-			} catch (InterruptedException e) {
-				e.printStackTrace();
-			}
+				wait();			// Se asteapta golirea bufferului
+			} catch (InterruptedException e) { /*Do nothing*/ }
 		}
-
-		// Adding the gift in the buffer
-		gifts[tail % gifts.length] = gift;
+		
+		cadouri[tail % cadouri.length] = cadou;		// Se adauga cadoul in buffer
 		tail++;
-
-		// Notify that the buffer is not empty
 		notifyAll();
 
 	}

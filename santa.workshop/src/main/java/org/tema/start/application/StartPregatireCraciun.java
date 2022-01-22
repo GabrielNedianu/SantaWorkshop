@@ -12,15 +12,19 @@ public class StartPregatireCraciun {
 		TransferGift giftQueue = new TransferGift();
 
 		// Creating Santa (with help from God)
-		Santa Santa = new Santa(giftQueue);
+		Santa santa = new Santa(giftQueue);
 
 		// Creating Santa's workshop
 		Atelier workshop = new Atelier(giftQueue);
 
 		// Starting factory creation
-		workshop.createFactories();
+		workshop.createFabrici();
 
 		// Santa starts receiving gifts
-		Santa.start();
+		santa.start();
+	}
+	
+	public static void stopProducereCadouri() {
+		// TODO: stop the application
 	}
 }

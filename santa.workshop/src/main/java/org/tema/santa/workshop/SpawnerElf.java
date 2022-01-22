@@ -3,82 +3,79 @@ package org.tema.santa.workshop;
 import java.util.Random;
 import java.util.concurrent.locks.ReentrantLock;
 
+import org.tema.santa.workshop.utils.LoggerUtil;
+
+/**
+ * Clasa ce spanwneaza elfii in fabrici la un interval aleatoriu intre 500 si 1000
+ * 
+ * @author gabriel_nedianu
+ *
+ */
 public class SpawnerElf extends Thread {
 
-	private Fabrica factory;
+	/**
+	 * Folosit pentru a avea doar cate o instanta pentru fiecare thread
+	 */
+	private Random random = new Random();
 
-	public SpawnerElf(Fabrica factory) {
-		this.factory = factory;
+	private Fabrica fabrica;
+
+	public SpawnerElf(Fabrica fabrica) {
+		this.fabrica = fabrica;
 	}
 
+	@Override
 	public void run() {
-
+		
+		// La fiecare interval, se incearca sa se spawneze un Elf
 		while(true) {
-
-			Random rand = new Random();
-			long milis = rand.nextInt(1000) + 500;
-
-
-			// Sleeping a random time between 500 and 1000 milliseconds
 			try {
-				Thread.sleep(milis);
-			} catch (InterruptedException e) {
-				e.printStackTrace();
-			}
-
-			// Spawning an elf
-			spawnAnElf();
+				Thread.sleep(random.nextInt(500) + (long)500);
+			} catch (InterruptedException e) { /*Do nothing*/ }
+			spawnElf();
 		}
 	}
 
-	private void spawnAnElf() {
+	/**
+	 * Metoda folosita la spawnarea unui elf pe o pozitie aleatorie
+	 * Cand elf-ul este spawnat, se blocheaza fabrica(elfii nu se pot misca sau genera cadouri)
+	 *  si numaratorul de elfi (alte spawnere nu pot crea alti elfi, deoarece doresc ca fiecare elf sa aiba un id unic)
+	 */
+	private void spawnElf() {
 
-		Random rand = new Random();
+		ReentrantLock fabricaLock = fabrica.getFabricaLock();
+		fabricaLock.lock();
 
+		int dimFabrica = fabrica.getN();
 
-		// Getting the factory lock
-		ReentrantLock factoryLock = factory.getFactoryLock();
+		// Incerc adaugarea unui nou elf la o pozitie aleatorie daca elfii din fabrica sunt mai putini de N/2
+		if(fabrica.nrElfiInFabrica() != dimFabrica / 2) {
 
-		// Elves can't move while adding a new elf in the factory
-		factoryLock.lock();
+			// Primesc lacatul pentru spawn-ul elfilor
+			ReentrantLock spawnElfLock = Atelier.getSpawnElfLockLock();
+			// Alte thread-uri nu trebuie sa acceseze numarul de elfi acum, deoarece va fi modificat cu adaugarea elfului
+			spawnElfLock.lock();
+			
+			// Gasesc prima pozitie aleatorie din fabrica unde pot insera elful apoi creez si adaug elful
+			int x;
+			int y;
+			do {
+				x = random.nextInt(dimFabrica);
+				y = random.nextInt(dimFabrica);
+			} while (fabrica.esteLiberLa(x, y));
 
-		// Getting the factory matrix size
-		int factorySize = factory.getN();
+			Elf elf = new Elf(Atelier.NR_ELF_CURENT.incrementAndGet(), x, y, fabrica);
 
-
-		if(factory.nrExistingElves() != factorySize / 2) {
-
-			// Randomizing a position for the elf
-			int X = rand.nextInt(factorySize) + 0;
-			int Y = rand.nextInt(factorySize) + 0;
-
-
-			// Getting the  counter lock
-			ReentrantLock elvesCounterLock = Atelier.getElvesCounterLock();
-
-			// No other thread can access the number of robots in the factory
-			// since it's being modified now
-			elvesCounterLock.lock();
-
-			// Creating a new elf
-			Elf elf = new Elf(Atelier.nrTotalElves, X, Y, factory);
-
-			// Try inserting the elf in the factory
-			if(factory.addElf(elf)) {
-
-				Atelier.nrTotalElves++;
-				System.out.println("Elf " + elf.getNumber() +
-						" was created in factory " + factory.getNumber());
+			// Incercam introducerea elfului in fabrica
+			if(fabrica.addElf(elf)) {
+				LoggerUtil.infoElf("Elful cu numarul " + elf.getNrElf() + " a fost creat in fabrica " + fabrica.getNumar());
 			}
 
-			// Unlock the elves counter
-			elvesCounterLock.unlock();
-
+			spawnElfLock.unlock();	//Dupa ce s-a adaugat elful, deschid accesul altor spawnere
 		}
-		// Unlock the factory
-		factoryLock.unlock();
+
+		fabricaLock.unlock();	// Deschid fabrica
 
 	}
-
-
+	
 }

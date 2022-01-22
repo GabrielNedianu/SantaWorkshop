@@ -1,21 +1,23 @@
 package org.tema.santa.workshop;
 
+/**
+ * Clasa folosita pentru a le permite elfilor sa se retraga dupa ce au indeplinit anumite conditii
+ * 
+ * @author gabriel_nedianu
+ *
+ */
 public class RetragereElf extends Thread {
 
 	public void run() {
 
 		while(true) {
-			
 			// Releasing a permit for an elf to retire
-			Atelier.elfRetireSemaphore.release();
+			Atelier.retragereElfSemaphore.release();
 
-
-			// Sleeping 50 milliseconds
+			// Sleeping 200 milliseconds
 			try {
-				Thread.sleep(50);
-			} catch (InterruptedException e) {
-				e.printStackTrace();
-			}
+				Thread.sleep(200);
+			} catch (InterruptedException e) { /*Do nothing*/ }
 		}
 	}
 

@@ -1,58 +1,69 @@
 package org.tema.santa.workshop;
 
+import java.util.List;
 import java.util.Random;
 
-public class Ren extends Thread {
+import org.tema.santa.workshop.utils.LoggerUtil;
 
-	private int number;
-	private Fabrica factories[];
+/**
+ * Clasa reprezentand implementarea Renului, cel care preia cadouri din fabrici si le transmite mosului
+ * 
+ * @author gabriel_nedianu
+ *
+ */
+public class Ren extends Thread {
+	
+	/**
+	 * Folosit pentru a avea doar cate o instanta pentru fiecare thread
+	 */
+	private Random random = new Random();
+
+	private int nrRen; 	// Id-ul renului (numarul lui)
+	private List<Fabrica> fabrici;
 	private TransferGift giftQueue;
 
-	public Ren(Fabrica factories[], int number, TransferGift giftQueue) {
-		this.factories = factories;
-		this.number = number;
+	public Ren(List<Fabrica> fabrici, int numar, TransferGift giftQueue) {
+		this.fabrici = fabrici;
+		this.nrRen = numar;
 		this.giftQueue = giftQueue;
-
 	}
 
+	@Override
 	public void run() {
 
 		while(true) {
 
-			// Getting the gift from the factory
-			int gift = getGiftFromFactory();
+			int cadouId = extrageCadouDinFabrica();		// Renul incearca sa ia un cadou din fabrica
 
-
-			if(gift != 0) {
-				System.out.println("Reindeer " + number + " received gift " + gift);
-
-				// Giving the gift to Santa
-				giveGiftToSanta(gift);
+			if(cadouId != 0) {
+				LoggerUtil.infoCadou("2. Renul " + nrRen + " a luat cadoul " + cadouId);
+				transmiteCadoulMosului(cadouId);			// Renul pleaca cu cadoul sa i-l dea mosului
 			}
 
-			// Sleeping between 10 and 30 milliseconds
-			Random rand = new Random();
-			long milis = rand.nextInt(30) + 10;
 			try {
-				Thread.sleep(milis);
-			} catch (InterruptedException e) {
-				e.printStackTrace();
-			}
+				Thread.sleep(random.nextInt(10) + (long)10);		// Renul va dormi random intre 10 si 20 secunde
+			} catch (InterruptedException e) { /*Do nothing*/ }
 		}
 	}
-
-	private void giveGiftToSanta(int gift) {
-		giftQueue.giveGift(gift);
-		System.out.println("Reindeer " + number + " gave gift " + gift + " to Santa");
+	
+	/**
+	 * Se trimite cadoul catre Santa
+	 * 
+	 * @param cadouId id-ul cadoului ce urmeaza sa fie trimis`	
+	 */
+	private void transmiteCadoulMosului(int cadouId) {
+		giftQueue.adaugaCadou(cadouId);
+		LoggerUtil.infoCadou("3. Renul " + nrRen + " a trimis cadoul " + cadouId + " catre Santa");
 	}
+	
+	/**
+	 * Se incearca extragerea unui cadou dintr-o fabrica aleatoare
+	 * 
+	 * @return id-ul cadoului
+	 */
+	private int extrageCadouDinFabrica() {
 
-	private int getGiftFromFactory() {
-
-		// Choosing a random factory from the existing ones
-		Random rand = new Random();
-		int factory = rand.nextInt(Atelier.nrFactories) + 0;
-
-		// Requesting a gift from the chosen factory
-		return factories[factory].getGift();
+		int fabrica = random.nextInt(Atelier.NR_FABRICI);	// Selectez o fabrica
+		return fabrici.get(fabrica).getGift();				// Incerc sa extrag un cadou din ea
 	}
 }

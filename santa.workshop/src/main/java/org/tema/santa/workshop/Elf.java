@@ -2,6 +2,9 @@ package org.tema.santa.workshop;
 
 import java.util.Random;
 
+import org.tema.santa.workshop.utils.LoggerUtil;
+import org.tema.santa.workshop.utils.RandomUtil;
+
 /**
  * Clasa reprezentand un Elf ca un Thread
  * 
@@ -9,19 +12,25 @@ import java.util.Random;
  *
  */
 public class Elf extends Thread {
-
+	
 	private int nrElf;
 	private int x;
 	private int y;
-	private int gift = 0;
-	private Fabrica factory;
+	private int cadou = 0;
+	private Fabrica fabrica;
+	private int nrCadouriCreate = 0;
+	
+	/**
+	 * Folosit pentru a avea doar cate o instanta pentru fiecare thread
+	 */
+	private Random random = new Random();
 
 	/**
 	 * Constructor
 	 * 
-	 * @param nrElf	numarul curent al elfului
-	 * @param x		pozitia pe x
-	 * @param y		pozitia pe y
+	 * @param nrElf				numarul elfului (ID-ul acestuia)
+	 * @param x					pozitia pe x
+	 * @param y					pozitia pe y
 	 * @param fabricaElfului	fabrica din care face parte elful
 	 */
 	public Elf(int nrElf, int x, int y, Fabrica fabricaElfului) {
@@ -29,40 +38,41 @@ public class Elf extends Thread {
 		this.nrElf = nrElf;
 		this.x = x;
 		this.y = y;
-		this.factory = fabricaElfului;
+		this.fabrica = fabricaElfului;
 	}
-
+	
+	@Override
 	public void run() {
 
 		while (true) {
 
-			gift = gift + nrElf;
-
 			// Moving the elf in the factory
-			factory.moveElf(this);
+			fabrica.moveElf(this);
 
-			// The elf sleeps 30 milliseconds after creating a gift
 			try {
-				Thread.sleep(30);
-			} catch (InterruptedException e) {
-				e.printStackTrace();
-			}
+				Thread.sleep(30);	// Elful ia pauza 30ms dupa ce creaza un cadou
+			} catch (InterruptedException e) { /*Do nothing*/ }
 
-			// Try retiring an elf from the factory
-			if (Atelier.elfRetireSemaphore.tryAcquire()) {
-				factory.retireElf(this);
-				break;
+			// Daca elful a creat mai mult de 10 cadouri, acesta poate sa incerce sa se retraga din lucru
+			if (nrCadouriCreate > 10 && Atelier.retragereElfSemaphore.tryAcquire()) {
+				fabrica.retrageElf(this);
+				break;						// Bucla run se va termina daca acesta este retras
 			}
 		}
 	}
-
-	public void changePosition(int newX, int newY) {
-
+	
+	/**
+	 * Se muta elful pe noile pozitii
+	 */
+	public void mutaElfulLa(int newX, int newY) {
 		x = newX;
 		y = newY;
 	}
 
-	public int getNumber() {
+	/**
+	 * @return Numarul unic al Elf-ului
+	 */
+	public int getNrElf() {
 		return nrElf;
 	}
 
@@ -73,28 +83,49 @@ public class Elf extends Thread {
 	public int getY() {
 		return y;
 	}
-
-	public int getGift() {
-		return gift;
+	
+	/**
+	 * @return Id-ul ultimului cadou creat de elf
+	 */
+	public int getCadou() {
+		return cadou;
 	}
-
+	
+	/**
+	 * @return Id-ul cadoului creat de elf
+	 */
+	public int creazaCadou() {
+		cadou = RandomUtil.getIdCadouUnic();
+		LoggerUtil.infoCadou("1. Elful " + this.nrElf + " a creat cadoul cu id-ul: " + cadou);
+		return cadou;
+	}
+	
+	/**
+	 * @return numarul de cadouri create de acest elf
+	 */
+	public int getNrCadouriCreate() {
+		return nrCadouriCreate;
+	}
+	
+	/**
+	 * Incrementeaza numarul cadourilor create de elf
+	 */
+	public void incrementCadou() {
+		nrCadouriCreate++;
+	}
+	
+	/**
+	 * Opreste elf-ul din munca daca este inconjurat de alti elfi si nu se poate misca
+	 */
 	public void stopWork() {
-
-		Random rand = new Random();
-
-		long milis = rand.nextInt(50) + 10;
-
 		try {
-			Thread.sleep(milis);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
+			Thread.sleep(random.nextInt(40) + (long)10);
+		} catch (InterruptedException e) { /*Do nothing*/ } 
 
 	}
-
-	public void reportPosition() {
-
-		System.out.println("Elf " + nrElf + " is at (" + x + "," + y + ") in factory " + factory.getNumber());
+	
+	public void comunicaPozitia() {
+		LoggerUtil.informarePozitie("Elful " + nrElf + " este la " + x + ", " + y + " in fabrica " + fabrica.getNumar());
 	}
 
 }

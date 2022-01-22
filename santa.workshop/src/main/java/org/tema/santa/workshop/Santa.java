@@ -1,23 +1,29 @@
 package org.tema.santa.workshop;
 
-public class Santa extends Thread {
+import org.tema.santa.workshop.utils.LoggerUtil;
 
+/**
+ * Clasa simuland mosul
+ * 
+ * @author gabriel_nedianu
+ *
+ */
+public class Santa extends Thread {
 
 	private TransferGift giftQueue;
 
+	/**
+	 * Constructor
+	 */
 	public Santa(TransferGift giftQueue) {
 		this.giftQueue = giftQueue;
-
 	}
 
+	@Override
 	public void run() {
-
 		while(true) {
-
-			int gift = giftQueue.receiveGift();
-			System.out.println("Santa put gift " + gift + " in his sack");
-
-			// Santa has magical powers, he needs no rest
+			int cadou = giftQueue.receiveCadou();
+			LoggerUtil.infoCadou("4. Santa a primit cadoul cu id-ul " + cadou);
 		}
 	}
 
