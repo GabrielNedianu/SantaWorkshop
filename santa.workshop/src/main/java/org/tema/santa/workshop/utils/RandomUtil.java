@@ -51,7 +51,7 @@ public class RandomUtil {
 	 * @return un numar random de reni intre 8 si 18
 	 */
 	public static int getNrReni( ) {
-		return random.nextInt(10) + 8;
+		return random.nextInt(12) + 8;
 	}
 	
 	/**

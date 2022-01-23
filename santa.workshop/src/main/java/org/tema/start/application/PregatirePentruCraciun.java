@@ -3,6 +3,7 @@ package org.tema.start.application;
 import org.tema.santa.workshop.Atelier;
 import org.tema.santa.workshop.Santa;
 import org.tema.santa.workshop.TransferGift;
+import org.tema.santa.workshop.utils.LoggerUtil;
 
 /**
  * Clasa folosita pentru a porni toate clasele aplicatiei
@@ -26,10 +27,10 @@ public class PregatirePentruCraciun {
 
 		startTime = System.currentTimeMillis();	// Salvez timpul de inceput pentru a calcula durata aplicatiei
 		
-		santa = new Santa(giftQueue);			// Creez mosul si atelierul
-		atelier = new Atelier(giftQueue);
-
+		atelier = new Atelier(giftQueue);		// Creez atelierul si mosul
 		atelier.createFabrici();				// Creez si pornesc fabricile
+
+		santa = new Santa(giftQueue);			
 
 		santa.start();							// Pornesc threadul Mos Craciun
 	}
@@ -41,8 +42,12 @@ public class PregatirePentruCraciun {
 		
 		endTime = System.currentTimeMillis();	// Salvez timpul terminarii pentru a calcula durata aplicatiei
 		
-		System.out.println(atelier.getAtelierFinalData());
-		System.out.println("Pana s-au generat cadourile au trecut " + (endTime - startTime)/1000 + " secunde");
+		String atelierDateFinale = atelier.getAtelierFinalData();
+		System.out.println(atelierDateFinale);
+		LoggerUtil.infoSimulare(atelierDateFinale);
+		
+		System.out.println("Pana s-au generat cadourile au trecut " + (endTime - startTime)/1000 + " secunde\n");
+		LoggerUtil.infoSimulare("Pana s-au generat cadourile au trecut " + (endTime - startTime)/1000 + " secunde");
 		System.exit(0);
 	}
 }

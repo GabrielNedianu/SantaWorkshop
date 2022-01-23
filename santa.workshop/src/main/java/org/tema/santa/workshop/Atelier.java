@@ -6,6 +6,7 @@ import java.util.concurrent.Semaphore;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.ReentrantLock;
 
+import org.tema.santa.workshop.utils.LoggerUtil;
 import org.tema.santa.workshop.utils.RandomUtil;
 
 /**
@@ -85,9 +86,11 @@ public class Atelier {
 			reni.get(i).start();
 		}
 
-		new RetragereElf().start();
+		//new RetragereElf().start();
 		
-		System.out.println(getAtelierStartData());
+		String atelierDateInitiale = getAtelierStartData();
+		LoggerUtil.infoSimulare(atelierDateInitiale);			// Se salveaza starea initiala a atelierului
+		System.out.println(atelierDateInitiale);
 	}
 	
 	/**

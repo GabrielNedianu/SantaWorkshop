@@ -77,7 +77,7 @@ public class Fabrica extends Thread {
 	}
 
 	/**
-	 * Se muta elful prin fabrica
+	 * Se muta elful prin fabrica (daca elful nu poate fi mutat, acesta este oprit din munca)
 	 */
 	public void moveElf(Elf elf) {
 

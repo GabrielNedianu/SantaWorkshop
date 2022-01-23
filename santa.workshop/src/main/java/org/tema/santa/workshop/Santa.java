@@ -21,7 +21,8 @@ public class Santa extends Thread {
 	 */
 	public Santa(TransferGift giftQueue) {
 		this.giftQueue = giftQueue;
-		System.out.println("Mosul doreste sa se pregateasca " + numarCadouriAsteptate + " cadouri.");
+		System.out.println("Mosul doreste sa se pregateasca " + numarCadouriAsteptate + " cadouri.\n\n");
+		LoggerUtil.infoSimulare("Mosul doreste sa se pregateasca " + numarCadouriAsteptate + " cadouri.\n\n");
 	}
 
 	@Override

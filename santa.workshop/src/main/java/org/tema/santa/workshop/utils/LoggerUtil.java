@@ -19,6 +19,10 @@ public class LoggerUtil {
 	 * Logger pentru a salva informatiile despre crearea elfilor si retragerea lor
 	 */
 	static final Logger elfCreationLogger = LogManager.getLogger("elfCreationLogger");
+	/**
+	 * Logger pentru a salva informatiile despre simulare
+	 */
+	static final Logger simulareLogger = LogManager.getLogger("simulareLogger");
 	
 	/**
 	 * Pozitia elfului va fi logata in fisierul corespunzator
@@ -45,5 +49,12 @@ public class LoggerUtil {
 	 */
 	public static void infoElf(String informatieDespreElf) {
 		elfCreationLogger.info(informatieDespreElf);
+	}
+	
+	/**
+	 * Salveaza informatia despre simulare
+	 */
+	public static void infoSimulare(String informatieDespreElf) {
+		simulareLogger.info(informatieDespreElf);
 	}
 }
