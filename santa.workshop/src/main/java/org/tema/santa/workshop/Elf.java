@@ -13,17 +13,23 @@ import org.tema.santa.workshop.utils.RandomUtil;
  */
 public class Elf extends Thread {
 	
-	private int nrElf;
-	private int x;
-	private int y;
-	private int cadou = 0;
-	private Fabrica fabrica;
-	private int nrCadouriCreate = 0;
+	/**
+	 * Numarul elfului (ID-ul acestuia)
+	 */
+	protected int nrElf;
+	protected int x;
+	protected int y;
+	protected int cadou = 0;
+	/**
+	 * Fabrica din care face parte elful
+	 */
+	protected Fabrica fabrica;
+	protected int nrCadouriCreate = 0;
 	
 	/**
 	 * Folosit pentru a avea doar cate o instanta pentru fiecare thread
 	 */
-	private Random random = new Random();
+	protected Random random = new Random();
 
 	/**
 	 * Constructor
@@ -45,8 +51,26 @@ public class Elf extends Thread {
 
 		while (true) {
 
-			// Moving the elf in the factory
+			// Elful se muta prin fabrica
 			fabrica.moveElf(this);
+
+			// Decomenteaza liniile urmatoare pentru functionarea taskului 2
+			
+//			if(Math.abs(x - y) <= 1) {
+//				LoggerUtil.infoElf("Elful cu numarul " + nrElf + " se odihneste pe pozitia " + x + ", " + y);
+//				if(fabrica.semaphoreDiagonalaPrincipala.tryAcquire()) {
+//					fabrica.elfiOpritiPeDiagonala++;
+//					fabrica.semaphoreDiagonalaPrincipala.release();
+//				}else {
+//					continue;
+//				}
+//				while(fabrica.elfiOpritiPeDiagonala < fabrica.getN()) {		// Astept sa ajunga toti elfii pe diagonala
+//					try {
+//						Thread.sleep(10);
+//					} catch (InterruptedException e) { /*Do nothing*/ }
+//				}
+//				fabrica.elfiOpritiPeDiagonala = 0;
+//			}
 
 			try {
 				Thread.sleep(30);	// Elful ia pauza 30ms dupa ce creaza un cadou
@@ -56,7 +80,7 @@ public class Elf extends Thread {
 			if (nrCadouriCreate > 10 && Atelier.retragereElfSemaphore.tryAcquire()) {
 				fabrica.retrageElf(this);
 				Atelier.NR_ELFI_RETRASI.incrementAndGet();
-				
+
 				break;						// Bucla run se va termina daca acesta este retras
 			}
 		}

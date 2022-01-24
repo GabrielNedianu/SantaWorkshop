@@ -22,6 +22,15 @@ public class Fabrica extends Thread {
 	private ReentrantLock fabricaLock = new ReentrantLock();
 	private ReentrantLock elfiListLock = new ReentrantLock();
 	private ReentrantLock giftsLock = new ReentrantLock();
+	
+	/**
+	 * Semafor folosit pentru elfii care iau pauza pe zona diagonalei principale(task-ul 2)
+	 */
+	public Semaphore semaphoreDiagonalaPrincipala = new Semaphore(1);
+	/**
+	 * Semafor folosit pentru elfii care iau pauza pe zona diagonalei principale(task-ul 2)
+	 */
+	public volatile int elfiOpritiPeDiagonala = 0;
 
 	/**
 	 * @return Lock-ul ce blocheaza activitatea in fabrica

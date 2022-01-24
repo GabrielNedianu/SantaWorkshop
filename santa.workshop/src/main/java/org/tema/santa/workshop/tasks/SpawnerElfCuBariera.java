@@ -1,33 +1,30 @@
-package org.tema.santa.workshop;
+package org.tema.santa.workshop.tasks;
 
-import java.util.Random;
+import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.locks.ReentrantLock;
 
+import org.tema.santa.workshop.Atelier;
+import org.tema.santa.workshop.Elf;
+import org.tema.santa.workshop.Fabrica;
+import org.tema.santa.workshop.SpawnerElf;
 import org.tema.santa.workshop.utils.LoggerUtil;
 
-/**
- * Clasa ce spanwneaza elfii in fabrici la un interval aleatoriu intre 500 si 1000
- * 
- * @author gabriel_nedianu
- *
- */
-public class SpawnerElf extends Thread {
-
+public class SpawnerElfCuBariera extends SpawnerElf {
+	
 	/**
-	 * Folosit pentru a avea doar cate o instanta pentru fiecare thread
+	 * Bariera folosita pentru elfii din fiecare fabrica care stationeaza in zona diagonalei principale
 	 */
-	protected Random random = new Random();
+	private CyclicBarrier barieraElf;
 
-	protected Fabrica fabrica;
-
-	public SpawnerElf(Fabrica fabrica) {
-		this.fabrica = fabrica;
+	public SpawnerElfCuBariera(Fabrica fabrica) {
+		super(fabrica);
+		barieraElf = new CyclicBarrier(fabrica.getN());
 	}
 
 	@Override
 	public void run() {
 		
-		// La fiecare interval, se incearca sa se spawneze un Elf
+		// La fiecare interval, se incearca sa se spawneze un Elf Cu Bariera
 		while(true) {
 			try {
 				Thread.sleep(random.nextInt(500) + (long)500);
@@ -50,7 +47,7 @@ public class SpawnerElf extends Thread {
 
 		// Incerc adaugarea unui nou elf la o pozitie aleatorie daca elfii din fabrica sunt mai putini de N/2
 			// Pentru taskurile 2,3 si 4 se vor putea genera mai multi elfi(pana la N)
-		if(fabrica.nrElfiInFabrica() != dimFabrica / 2) {
+		if(fabrica.nrElfiInFabrica() < dimFabrica + 1) {
 
 			// Primesc lacatul pentru spawn-ul elfilor
 			ReentrantLock spawnElfLock = Atelier.getSpawnElfLockLock();
@@ -65,7 +62,7 @@ public class SpawnerElf extends Thread {
 				y = random.nextInt(dimFabrica);
 			} while (!fabrica.esteLiberLa(x, y));		// Cat timp fabrica e ocupata, caut alte date pt spawn
 			
-			Elf elf = new Elf(Atelier.NR_ELF_CURENT.incrementAndGet(), x, y, fabrica);
+			Elf elf = new ElfCuBariera(Atelier.NR_ELF_CURENT.incrementAndGet(), x, y, fabrica, barieraElf);
 
 			// Incercam introducerea elfului in fabrica
 			if(fabrica.addElf(elf)) {

@@ -3,6 +3,12 @@ package org.tema.santa.workshop.utils;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
+/**
+ * Clasa utilitara pentru salvarea in fi'siere
+ * 
+ * @author gabriel_nedianu
+ *
+ */
 public class LoggerUtil {
 	
 	private LoggerUtil() {/*Private Constructor*/}

@@ -6,6 +6,7 @@ import java.util.concurrent.Semaphore;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.ReentrantLock;
 
+import org.tema.santa.workshop.tasks.SpawnerElfCuBariera;
 import org.tema.santa.workshop.utils.LoggerUtil;
 import org.tema.santa.workshop.utils.RandomUtil;
 
@@ -70,7 +71,10 @@ public class Atelier {
 
 		for(int i = 0; i < NR_FABRICI ; ++i) {
 			fabrici.add(new Fabrica(RandomUtil.getFabricaN(), i + 1));	// Creez fabricile cu dimensiune random N si numerotate de la 1 la maxim 5
-			spawnere.add(new SpawnerElf(fabrici.get(i)));				// Creez cate un spawner de elfi pentru fiecare fabrica
+			//spawnere.add(new SpawnerElf(fabrici.get(i)));				// Creez cate un spawner de elfi pentru fiecare fabrica
+			
+			// Decomenteaza linia urmatoare pentru a simula taskurile 3 si 4, deoarece astfel se va adauga un spawner ce genereaza si cate o bariera in fiecare fabrica
+			spawnere.add(new SpawnerElfCuBariera(fabrici.get(i)));		
 		}
 
 		for(int i = 0; i < NR_RENI ; ++i) {
